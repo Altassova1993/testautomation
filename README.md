@@ -41,12 +41,12 @@ All the test triggering is conducted by **`mvn`** command, this framework suppor
 execution by multiple different browsers as seen below. 
 
 ## Supported Browsers: 
-| Browser | Maven Options      |
-|------------------------------|
-|Chrome  | `-Dbrowser=chrome`  |
-|Firefox | `-Dbrowser=firefox` |
-|MS Edge | `-Dbrowser=edge `   |
-|Headless| `-Dbrowser=headless`|
+| Browser | Maven Options       |
+|---------|---------------------|
+|Chrome   | `-Dbrowser=chrome`  |
+|Firefox  | `-Dbrowser=firefox` |
+|MS Edge  | `-Dbrowser=edge`    |
+|Headless |` -Dbrowser=headless`|
 
 To trigger all the test case execution:
 ```shell
